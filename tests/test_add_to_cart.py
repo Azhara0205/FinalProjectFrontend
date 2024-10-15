@@ -1,5 +1,5 @@
 import pytest
-from bbe.pages.start_page import StartPage
+from pages.start_page import StartPage
 
 
 @pytest.mark.usefixtures("init_driver", "base_url")
