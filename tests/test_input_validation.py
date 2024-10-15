@@ -1,7 +1,7 @@
 import pytest
-from bbe.pages.start_page import StartPage
-from bbe.pages.cart_page import CartPage
-from bbe.pages.checkout_page import CheckoutPage
+from pages.start_page import StartPage
+from pages.cart_page import CartPage
+from pages.checkout_page import CheckoutPage
 import time
 
 @pytest.mark.usefixtures("init_driver", "base_url")
